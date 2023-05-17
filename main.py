@@ -27,3 +27,5 @@ def main():
                 break
 
     print("Кінець гри.")
+
+main()
