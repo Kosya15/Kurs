@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>Python</ID>
+  <OriginalElement>#C:/Users/User/Desktop/Tic-Tac-Toe Kursach version 1/main_.py</OriginalElement>
+  <nodes>
+    <node x="197.0" y="586.0">main_.Board</node>
+    <node x="0.0" y="630.0">main_.Game</node>
+    <node x="125.0" y="0.0">typing.Hashable</node>
+    <node x="80.5" y="106.0">object</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="main_.Game" target="object" relationship="REALIZATION">
+      <point x="0.0" y="-72.0" />
+      <point x="88.5" y="561.0" />
+      <point x="194.5" y="561.0" />
+      <point x="0.0" y="215.0" />
+    </edge>
+    <edge source="object" target="typing.Hashable" relationship="INTERFACE">
+      <point x="0.0" y="-215.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="main_.Board" target="object" relationship="REALIZATION">
+      <point x="0.0" y="-116.0" />
+      <point x="300.5" y="561.0" />
+      <point x="194.5" y="561.0" />
+      <point x="0.0" y="215.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.7625298329355609" showDependencies="false" x="202.0" y="409.0" />
+  <SelectedNodes>
+    <node>main_.Board</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+</Diagram>
+

@@ -2,13 +2,21 @@ from game import Game
 
 
 def main():
+    """Головна функція програми. Виконує основний цикл гри "Хрестики-нулики"."""
     game = Game()
 
     while True:
         game.board.display()
 
-        row = int(input("Введіть рядок (0-2): "))
-        col = int(input("Введіть column стовпець (0-2): "))
+        row = input("Введіть рядок дошки (0-2): ")
+        col = input("Введіть стовпець дошки (0-2): ")
+
+        try:
+            row = int(row)
+            col = int(col)
+        except ValueError:
+            print("Помилка: Рядок та стовпець мають бути цілими числами.")
+            continue
 
         if game.player_move(row, col):
             if game.game_over():
@@ -28,4 +36,6 @@ def main():
 
     print("Кінець гри.")
 
-main()
+
+if __name__ == "__main__":
+    main()
